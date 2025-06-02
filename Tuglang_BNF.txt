@@ -1,0 +1,25 @@
+<program>          ::= <ifade>*
+
+<ifade>            ::= <degisken_tanimla>
+                    | <kosul_ifadesi>
+                    | <yazdir_ifadesi>
+
+<degisken_tanimla> ::= "belirle" <identifier> "=" <deger> ";"
+
+<kosul_ifadesi>    ::= "eger" <kosul> "{" <ifade>* "}"
+
+<yazdir_ifadesi>   ::= "yaz" <identifier> ";"
+
+<kosul>            ::= <identifier> <karsilastirma_op> <deger>
+
+<deger>            ::= <identifier> | <sayi>
+
+<identifier>       ::= <harf> { <harf> | <rakam> | "_" }*
+
+<karsilastirma_op> ::= "==" | "!=" | "<" | ">" | "<=" | ">="
+
+<sayi>             ::= <rakam>+
+
+<harf>             ::= "a" | ... | "z" | "A" | ... | "Z"
+
+<rakam>            ::= "0" | ... | "9"
