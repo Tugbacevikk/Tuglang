@@ -56,7 +56,7 @@ dongu (x) {
 
 
 
-## 🎨 Sözdizimi Renklendirme
+##  Sözdizimi Renklendirme
 
 Tuglang editörü içerisinde yazılan kodlar, anlık olarak aşağıdaki şekilde renklendirilir:
 
@@ -71,7 +71,9 @@ Tuglang editörü içerisinde yazılan kodlar, anlık olarak aşağıdaki şekil
 Renklendirme, `TuglangLexer.java` tarafından belirlenen token tiplerine göre `EditorGUI.java` dosyasında uygulanmaktadır.
 
 ---
-
+---
+# Proje Tanıtım Videosu:
+https://www.youtube.com/watch?v=AVuR98SSWYw 
 ##  Proje Yapısı
 
 ```
@@ -86,9 +88,7 @@ Tuglang/
 ├── README.md
 └── Tuglang Proje Raporu.pdf
 
----
-# Proje Tanıtım Videosu:
-https://www.youtube.com/watch?v=AVuR98SSWYw
+
 
 
 
