@@ -87,6 +87,10 @@ Tuglang/
 └── Tuglang Proje Raporu.pdf
 
 ---
+# Proje Tanıtım Videosu:
+https://www.youtube.com/watch?v=AVuR98SSWYw
+
+
 
 
 
