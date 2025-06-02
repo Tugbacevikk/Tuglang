@@ -1,0 +1,19 @@
+// Değişken tanımlama
+belirle x = 10 + 5 ;
+belirle y = x * 2 - 3 ;
+belirle sonuc = (x + y) / 2 ;
+
+// Ekrana yazdırma
+yaz x ;
+yaz y ;
+yaz sonuc ;
+
+// Koşullu ifade
+eger (sonuc) {
+    yaz "Koşul doğruysa burası çalışır" ;
+}
+
+// Döngü örneği
+dongu (x) {
+    yaz "Bu dongu x kadar çalışır" ;
+}
